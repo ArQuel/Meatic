@@ -2,3 +2,33 @@
   display: inline-block;
   max-width: 50px;
 }
+
+.title {
+  padding-top: 1%;
+  font-family: 'Playball', cursive;
+  font-size: 7em;
+}
+
+.slogan {
+  font-family: 'Playball', cursive;
+  font-size: 3em;
+}
+
+body {
+  background-color: #d8d8da
+}
+
+#conteneur2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2%;
+  flex-wrap: wrap;
+}
+
+.element {
+  border: solid white;
+  -webkit-box-shadow: 15px 15px 8px 3px rgba(50, 50, 50, 0.58);
+-moz-box-shadow:    15px 15px 8px 3px rgba(50, 50, 50, 0.58);
+box-shadow:         15px 15px 8px 3px rgba(50, 50, 50, 0.58);
+
+}
